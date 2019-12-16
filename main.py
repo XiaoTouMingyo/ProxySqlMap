@@ -1,4 +1,4 @@
-from lib.baseproxy import AsyncMitmProxy
+from baseproxy.proxy import AsyncMitmProxy
 from lib.ProxyRe import DebugInterceptor
 from lib.GetSql import GetSql
 import threading
