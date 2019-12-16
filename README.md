@@ -22,7 +22,8 @@ From Proxy to SqlMapApi
 ## 输出:
 
 sqlsan.txt 为已创建的taskid与URL
-ok.txt 为存在注入的URL记忆taskid
+
+ok.txt为存在注入的URL以及taskid
 
 ## BUG以及建议:
 
