@@ -19,6 +19,11 @@ From Proxy to SqlMapApi
 
 访问:f4ckweb.ca即可下载
 
+## 输出:
+
+sqlsan.txt 为已创建的taskid与URL
+ok.txt 为存在注入的URL记忆taskid
+
 ## BUG以及建议:
 
 http://www.f4ckweb.top/
