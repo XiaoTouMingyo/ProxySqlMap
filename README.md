@@ -10,6 +10,8 @@ From Proxy to SqlMapApi
 3. url 为需要拦截的url
 4. admin_token 为sqlmap的adminid
 
+修改代理：127.0.0.1:8081
+
 ## 支持库:
 
 1. requests
