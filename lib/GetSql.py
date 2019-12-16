@@ -24,8 +24,9 @@ class GetSql:
                 if v == 'terminated' and len(self.GetTask(k)) == 0:
                     print("[-] task:"+k+'   not inject')
                     self.DelTask(k)
-                elif v != 'terminated' and len(self.GetTask(k)) > 0:
+                elif v == 'terminated' and len(self.GetTask(k)) >= 1:
                     print("[+] task:"+k+'    is inject')
                     with open("SQL.txt",'a+') as file:
                         file.write(str(self.GetTask(k))+"\n")
+                    self.DelTask(k)
             time.sleep(60)
