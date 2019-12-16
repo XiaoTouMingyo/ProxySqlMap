@@ -17,7 +17,7 @@ From Proxy to SqlMapApi
 
 ## https 支持:
 
-访问:f4ckweb.ca即可下载
+访问:baseproxy.ca即可下载
 
 ## 输出:
 
